@@ -49,12 +49,7 @@ int main()
     return 0;
 }
 
-/*
-FUNCTION TO RETURN GAME STATUS
-1 FOR GAME IS OVER WITH RESULT
--1 FOR GAME IS IN PROGRESS
-O GAME IS OVER AND NO RESULT
- **/
+
 int checkForWin()
 {
     int returnValue = 0;
@@ -94,9 +89,7 @@ int checkForWin()
     return returnValue;
 }
 
-/**
-FUNCTION TO DRAW BOARD OF TIC TAC TOE WITH PLAYERS MARK
- **/
+
 void displayBoard()
 {
     system("cls");
@@ -121,10 +114,7 @@ void displayBoard()
     printf("     |     |     \n\n");
 }
 
-/***
-set the board with the correct character,
-x or o in the correct spot in the array
-**/
+
 void markBoard(char mark)
 {
     if (choice == 1 && square[1] == '1')
